@@ -7,7 +7,7 @@ async function main() {
   // transaction hash Market place = 0x82f6d130c912a5ec00dc2d64d3251b65fcce34d79d7d345f67d70bf8ee697d48 // Market Place
   // Transaction hash NFT = 0x82f6d130c912a5ec00dc2d64d3251b65fcce34d79d7d345f67d70bf8ee697d48
 
-  //  had trouble with an openzeppline version dependency
+  //  had trouble with an openzeppline The library @openzeppelin/contracts@5.0.1 
 
   // Deploy the NFT contract
   const MyWeb3 = await ethers.getContractFactory("MyWeb3");
